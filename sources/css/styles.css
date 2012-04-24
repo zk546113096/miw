@@ -157,6 +157,12 @@ a {
 .header-01 .menu li.down dl dt.active a {
   color: #ffffff;
 }
+.header-01 .menu li.current {
+  background: url('../images/base/header-01-li-cur.png') no-repeat left 5px;
+}
+.header-01 .menu li.current a {
+  color: #ffffff;
+}
 .header-01 .search-text {
   width: 105px;
   height: 23px;
