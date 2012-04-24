@@ -129,7 +129,7 @@ a {
 }
 .header-01 .menu li.down dl {
   position: absolute;
-  width: 1000px;
+  width: 960px;
   height： 25px;
   line-height: 25px;
   padding: 6px 20px;
@@ -742,6 +742,12 @@ input.footer-email-btn {
 .bd1se5e5e5 {
   border: #e5e5e5 1px solid;
 }
+.bd1sdedede {
+  border: #dedede 1px solid;
+}
+.bd1sb40014 {
+  border: #b40014 1px solid;
+}
 /* tab 切换 样式 */
 .switch-blocks li {
   display: none;
@@ -759,6 +765,9 @@ input.footer-email-btn {
 }
 .w195 {
   width: 195px;
+}
+.w264 {
+  width: 264px;
 }
 .w288 {
   width: 288px;
@@ -790,6 +799,12 @@ input.footer-email-btn {
 .w660 {
   width: 660px;
   overflow: hidden;
+}
+.w680 {
+  width: 660px;
+}
+.w712 {
+  width: 712px;
 }
 /* height */
 /* position right bottom */
