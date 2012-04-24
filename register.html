@@ -5,13 +5,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Index</title>
     <link rel="stylesheet" href="./sources/css/styles.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="./sources/css/index.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="./sources/css/site.css" type="text/css" media="screen" charset="utf-8">
     <!--[if lt IE 8]>
       <link rel="stylesheet" href="./sources/css/ie6.css" type="text/css" media="screen, projection" charset="utf-8">
     <![endif]--> 
     <script type="text/javascript" src="./sources/js/jquery/jquery-1.7.js"></script>
     <script type="text/javascript" src="./sources/js/common.js"></script>
-    <script type="text/javascript" src="./sources/js/index.js"></script>
   </head>
   <!-- }}} -->
   <body>
@@ -110,14 +109,13 @@
               <input class="lf" type="submit" value="" /> 
             </div>
           </form> 
-          <!-- 
-          <div class="rt lh24 mt10 header-01-login">
+          <div class="rt lh24 mt10 header-01-login tar">
             请  
             <a href="#">[登录]</a>
             或
             <a href="#">[注册]</a>
           </div>
-          -->
+          <!-- 
           <div class="rt header-01-login">
             <div class="avatar rt ml5">
               <a href="#" target="_blank">
@@ -146,20 +144,148 @@
               </p> 
             </div>
           </div>
+          -->
           <div class="rt header-01-line"></div>
         </div>   
       </div>
       <!-- }}} -->
      <!-- 内容 {{{ -->
       <div id="content">
-        <!-- 客户端 {{{ -->
-        <img src="./sources/images/base/client-bg.jpg" alt="客户端" usemap="#client-map" /> 
-        <map name="client-map">
-          <area href="#" target="_blank" shape="rect" coords="46,410,253,474" />
-          <area href="#" target="_blank" shape="rect" coords="280,410,486,474" />
-          <area href="#" target="_blank" shape="rect" coords="514,410,720,474" />
-          <area href="#" target="_blank" shape="rect" coords="750,410,955,474" />
-        </map> 
+        <!-- 注册页 {{{ -->
+        <div class="login-block-top"></div>
+        <div class="login-block bkff clearfix">
+          <!-- 左边表单 {{{ -->
+          <div class="lf">
+            <h2 class="fs20 fwb color-b40014">
+              新用户注册
+            </h2>
+            <form action="">
+              <table width="100%">
+              	<tr>
+              		<td class="fs14" width="16%" align="right">
+                    电子邮箱： 
+                  </td>
+              		<td>
+                    <input class="login-input-text lf" type="text" /> 
+                    <span class="color-8a0e0e ml5 mt5 lf">*</span>
+                  </td>
+              	</tr>
+              	<tr>
+              		<td class="fs14" align="right">
+                    昵称：
+                  </td>
+              		<td>
+                    <input class="login-input-text lf" type="text" /> 
+                    <span class="color-8a0e0e ml5 mt5 lf">*</span>
+                  </td>
+              	</tr>
+              	<tr>
+              		<td class="fs14" align="right">
+                    性别：
+                  </td>
+              		<td>
+                    <input class="register-input-radio lf" type="radio" name="register-radio"/> 
+                    <span class="lf mr10">男</span>
+                    <input class="register-input-radio lf" type="radio" name="register-radio" />
+                    <span class="lf mr10">女</span>
+                  </td>
+              	</tr>
+              	<tr>
+              		<td class="fs14" align="right">密码：</td>
+              		<td>
+                    <input class="login-input-text lf" type="password" /> 
+                    <span class="color-8a0e0e ml5 mt5 lf">*</span>
+                  </td>
+              	</tr>
+              	<tr>
+              		<td class="fs14" align="right">确认密码：</td>
+              		<td>
+                    <input class="login-input-text lf" type="password" /> 
+                    <span class="color-8a0e0e ml5 mt5 lf">*</span>
+                  </td>
+              	</tr>
+              	<tr>
+              		<td class="fs14" align="right">验证码：</td>
+              		<td>
+                    <input class="login-input-text login-check-text" type="text" /> 
+                    <a href="#" class="color-8a0e0e">
+                      换一张 
+                    </a>
+                  </td>
+              	</tr>
+              	<tr>
+              		<td></td>
+              		<td>
+                    <p class="clearfix">
+                      <input type="checkbox" class="lf login-input-check" /> 
+                      <span class="lf">我已看过并同意<a href="#" target="_blank">《网络服务使用条款》</a></span>
+                    </p>
+                    <p class="mt30">
+                      <input type="submit" value="轻松注册" class="color-ffffff fs20 fwb tac login-submit-btn register-submit" /> 
+                    </p>
+              		</td>
+              	</tr>
+              </table> 
+            </form>
+          </div> 
+          <!-- }}} -->
+          <!-- 右边 注册 连接 {{{ -->
+          <div class="rt">
+            <p class="mt30">
+              已有帐号？请直接登录
+            </p>
+            <p class="mt20">
+              <a href="login.html" class="mb20 login-register-link register-login-link tac fwb color-ffffff">
+                登录
+              </a> 
+            </p>
+            <p class="mt30">
+              你也可以用一下方式登录： 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/sina.png" alt="新浪微博" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/qq.png" alt="qq" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/taobao.png" alt="淘宝" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/douban.png" alt="豆瓣" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/qqweibo.png" alt="腾讯微博" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/163.png" alt="网易微博" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/renren.png" alt="人人网" /> 
+              </a> 
+            </p>
+            <p class="mt20 clearfix">
+              <a href="#" target="_blank" class="mr10 lf">
+                <img src="./sources/images/site/msn.png" alt="msn" /> 
+              </a> 
+            </p>
+          </div>
+          <!-- }}} -->
+        </div> 
+        <div class="login-block-bot"></div>
         <!-- }}} -->
       </div>
       <!-- }}} -->

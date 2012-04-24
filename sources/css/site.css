@@ -1,0 +1,70 @@
+.login-block-top {
+  height: 20px;
+  padding-top: 10px;
+  background: url('../images/site/bg-sidebar.png') no-repeat left 10px;
+}
+.login-block-bot {
+  height: 20px;
+  background: url('../images/site/bg-sidebar.png') no-repeat left bottom;
+}
+.login-block {
+  padding: 0 57px;
+}
+.login-block div.lf {
+  width: 640px;
+}
+.login-block form {
+  margin-top: 25px;
+}
+.login-block form table td {
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+.login-input-text {
+  color: #898888;
+  width: 278px;
+  padding: 0 10px;
+  height: 33px;
+  line-height: 33px;
+}
+.login-input-check {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.login-submit-btn {
+  width: 106px;
+  height: 36px;
+  border: 0;
+  background: url('../images/site/w106-h36-bt.png') no-repeat;
+}
+.login-forget-pwd {
+  text-decoration: underline;
+}
+.login-block div.rt {
+  width: 200px;
+  padding-left: 40px;
+  height: 600px;
+  border-left: #cccccc 1px solid;
+}
+.login-register-link {
+  width: 150px;
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  background: url('../images/site/w146-h38-btn.png') no-repeat;
+}
+.register-submit {
+  width: 150px;
+  height: 38px;
+  background: url('../images/site/w146-h38-btn.png') no-repeat;
+}
+.login-check-text {
+  width: 100px;
+}
+.register-login-link {
+  width: 106px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  background: url('../images/site/w106-h36-bt.png') no-repeat;
+}

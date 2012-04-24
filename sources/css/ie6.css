@@ -31,3 +31,16 @@ input.footer-email-btn {
   _padding-bottom: 27px;
 }
 /* }}} */
+/* login {{{ */
+.login-input-check {
+  margin-top: -3px;
+}
+.register-input-radio {
+  margin-top: -3px;
+}
+/* }}} */
+/* register {{{ */
+.register-input-radio {
+  margin-top: -3px;
+}
+/* }}} */
