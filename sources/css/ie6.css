@@ -1,0 +1,90 @@
+/* top menu {{{ */
+.top-menu-text {
+  width: 140px;
+}
+.top-menu-ul-line {
+  margin-top: -2px;
+}
+/* }}} */
+/* 渠道通道 {{{ */
+.offline-join-us {
+  right: 10px;
+  _bottom: 34px;
+}
+/* }}} */
+/* 尾部 {{{ */
+#footer-language a {
+  margin-right: 9px;
+}
+.new-links-blocks li.new-links-five dd {
+  _height: 115px; 
+}
+.footer-links-form div.lf {
+  width: 465px;
+}
+.footer-links-form div.rt {
+  width: 340px;
+}
+.footer-links-form input {
+  height: 17px;
+}
+input.footer-search-btn,
+input.footer-email-btn {
+  height: 20px;
+}
+.footer-links-list-02 li {
+  width: 50px;
+}
+.footer-links-list-03 li.even {
+  width: 95px;
+}
+.footer-links-list-04 li.even {
+  width: 60px;
+}
+.footer-links-cont {
+  _padding-bottom: 27px;
+}
+/* }}} */
+/* 注册页 {{{ */
+.register-lf-block .rows input {
+  height: 25px;
+  line-height: 25px;
+}
+.register-lf-block .rows .yzm-input input {
+  height: 17px;
+  line-height: 17px;
+}
+/* }}} */
+/* 登录页 {{{ */
+.login-form div.rows input.login-checkbox {
+  margin-top: 5px;
+}
+/* }}} */
+/* 乐歌资源 {{{ */
+.resources-sidebar ul {
+  _height: 400px;
+}
+.resources-sidebar ul li {
+  margin-left: 0px;
+}
+/* }}} */
+/* 行业厂家 {{{ */
+.factory-block-lf {
+  _height: 355px;
+}
+/* }}} */
+/* 商品页 {{{ */
+.location .user-define input {
+  _height: 17px;
+  _line-height: 17px;
+}
+.location .user-define button {
+  _height: 20px;
+}
+.form-list input.input-text,
+#question_author_name_field,
+#question_author_email_field {
+  height: 17px;
+  line-height: 17px;
+}
+/* }}} */
