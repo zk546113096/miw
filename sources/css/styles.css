@@ -140,6 +140,25 @@ a {
   border: #cccccc 1px solid;
   border-top: none;
 }
+.header-01 .menu li.down dl dd {
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header-01 .menu li.down dl dd a.fwb {
+  color: #32325a;
+}
+.header-01 .menu li.down dl dd a.color-8a0e0e {
+  color: #8a0e0e;
+}
+.header-01 .menu li.down dl dd.lf {
+  width: 449px;
+  margin-left: 30px;
+  border-right: #cccccc 1px solid;
+}
+.header-01 .menu li.down dl dd.rt {
+  margin-right: 30px;
+}
 .header-01 .menu li.down dl dt {
   padding-left: 22px;
   padding-right: 10px;
@@ -623,6 +642,9 @@ input.footer-email-btn {
 }
 .color-3264c8 {
 	color: #3264c8;
+}
+.color-32325a {
+	color: #32325a;
 }
 /* background color */
 .bkff {

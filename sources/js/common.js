@@ -29,11 +29,11 @@ jQuery(document).ready(function() {
     return false;
   });/* }}} */
   jQuery('.header-01 ul.menu li.down').hover(function() { /* header-01 子菜单 显示 隐藏 {{{ */
-    jQuery(this).find('dl').fadeIn('slow'); 
+    jQuery(this).find('dl').show(); 
     jQuery(this).addClass('active');
     return false;
   }, function() {
-    jQuery(this).find('dl').fadeOut('slow'); 
+    jQuery(this).find('dl').hide(); 
     jQuery(this).removeClass('active');
     return false;
   }); /* }}} */
