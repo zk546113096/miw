@@ -1,0 +1,380 @@
+.basa-menu {
+  height: 40px;
+  line-height: 40px;
+  background: #1e245d;
+}
+.basa-menu ul {
+  padding-left: 15px;
+}
+.basa-menu ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 15px;
+}
+.basa-menu ul li.current a {
+  color: #377ccc;
+}
+#content .basa-block h3 {
+  height: 22px;
+  line-height: 22px;
+}
+#content .basa-block h3 a.rt {
+  background-position: 15px -101px;
+}
+.basa-news ul {
+  padding: 0px 10px;
+  height: 185px;
+}
+.basa-news ul li {
+  top: 0px;
+  left: 0px;
+  width: 403px;
+  line-height: 19px;
+  padding-top: 6px;
+}
+.basa-news ul li a.pa {
+  right: 0px;
+  bottom: 0px;
+}
+.basa-login-block div.rows input {
+  width: 215px;
+  padding: 0 10px;
+  height: 35px;
+  line-height: 35px;
+  color: #898888;
+  font-size: 16px;
+}
+.basa-login-checkbox {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.basa-login-btn,
+.basa-register-link {
+  height: 31px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+.basa-login-btn {
+  width: 86px;
+  border: 0;
+  background: url('../images/basa/w86-h31-btn-bg.png') no-repeat;
+}
+.basa-register-link {
+  width: 96px;
+  line-height: 31px;
+  background: url('../images/basa/w96-h31-btn-bg.png') no-repeat;
+}
+.basa-login-qq,
+.basa-login-weibo {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+.basa-login-qq {
+  background: url('../images/base/icon.png') -674px -32px;
+}
+.basa-login-weibo {
+  background: url('../images/base/icon.png') -674px -65px;
+}
+.basa-hot-tags ul {
+  padding: 20px 5px;
+}
+.basa-hot-tags ul li {
+  padding: 10px;
+  word-wrap: break-word;
+  white-space: nowrap;
+  line-height: 19px;
+}
+.basa-winners-tabs li {
+  width: 211px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  background: #c8c8c8;
+}
+.basa-winners-tabs li.current {
+  color: #ffffff;
+  background: #960000;
+}
+.basa-winners-blocks {
+  border-style: solid;
+  border-color: #960000;
+  border-width: 2px 1px 1px;
+  background: #dedede;
+  height: 193px;
+}
+.basa-winners-blocks li dl {
+  padding: 10px 15px;
+}
+.basa-winners-blocks li dl dd {
+  line-height: 28px;
+}
+.basa-baby h2 {
+  height: 33px;
+  padding: 0 15px;
+  line-height: 33px;
+  background: #c8c8c8;
+}
+.basa-baby-block {
+  height: 188px;
+  padding: 10px;
+  padding-top: 0px;
+  background: #ebebeb;
+}
+.basa-baby-block img {
+  width: 195px;
+  height: 79px;
+}
+.basa-baby-block table {
+  margin: 5px 0;
+}
+.basa-baby-block table td {
+  line-height: 18px;
+  vertical-align: top;
+}
+.basa-baby-btn-rows a {
+  width: 91px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background: url('../images/basa/w91-h26-btn-bg.png') no-repeat;
+}
+.basa-baby-num {
+  width: 71px;
+  height: 44px;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 14px;
+  background: url('../images/basa/w71-h51-bg.png') no-repeat;
+}
+.basa-weibo-block ul {
+  padding: 15px;
+  padding-right: 0px;
+  height: 214px;
+}
+.basa-fan-block ul {
+  padding: 11px 11px 15px 15px;
+}
+.basa-fan-block ul li {
+  margin: 4px 4px 0 0;
+}
+.basa-fan-block ul li img {
+  width: 128px;
+  height: 105px;
+}
+.basa-fan-show {
+  bottom: 0;
+  width: 128px;
+  left: 0;
+  background: #333333;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.basa-topic-tabs {
+  border-bottom: 0;
+}
+.basa-topic-tabs li {
+  width: 106px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  background: #e9e9e9;
+}
+.basa-topic-tabs li.current {
+  background: #ffffff;
+}
+.basa-topic-blocks {
+  height: 243px;
+}
+.basa-topic-blocks li dl {
+  padding: 10px 15px;
+}
+.basa-topic-blocks li dl dd {
+  line-height: 20px;
+}
+.basa-fan-topic ul {
+  padding: 11px 15px 15px;
+}
+.basa-fan-topic li.lf {
+  width: 328px;
+}
+.basa-fan-topic li.lf dd {
+  margin: 4px 4px 0 0;
+}
+.basa-fan-topic li.lf dd .basa-fan-show {
+  width: 160px;
+}
+.basa-fan-topic ul li img {
+  width: 160px;
+  height: 80px;
+}
+.basa-fan-topic ul li.rt {
+  width: 369px;
+}
+.basa-fan-topic ul li.rt dt {
+  line-height: 24px;
+}
+.basa-survey-block {
+  height: 166px;
+  background: #f5f5f5;
+}
+.basa-survey-block a {
+  width: 87px;
+  height: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+.basa-survey-bs {
+  background: #111fa6;
+}
+.basa-survey-hm {
+  background: #f1b500;
+}
+.basa-info {
+  padding-top: 5px;
+  background: #f9f9f9;
+  border-bottom: 0;
+}
+.basa-info img {
+  width: 135px;
+  height: 95px;
+}
+.basa-info h2 {
+  height: 35px;
+  line-height: 30px;
+  padding-left: 40px;
+  background: url('../images/basa/basa-login.png') no-repeat;
+}
+.basa-info p {
+  line-height: 19px;
+}
+.basa-info-msg {
+  margin-top: 7px;
+}
+.basa-luona-tabs li {
+  width: 149px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.basa-luona-tabs li.current {
+  color: #8a0e0e;
+}
+.basa-luona-blocks {
+  height: 108px;
+  padding: 8px 0 5px 15px;
+}
+.basa-luona-blocks dd {
+  width: 90px;
+  text-align: center;
+  border-right: #999999 1px dashed; 
+} 
+.basa-luona-blocks dd img {
+  width: 56px;
+  height: 62px;
+}
+.basa-luona-blocks dd.last {
+  border-right: 0;
+}
+.basa-xing-new ul {
+  height: 250px;
+}
+.basa-ouguan h2 {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 15px;
+  background: #1c204e;
+}
+.basa-ouguan-cont {
+  width: 215px;
+  height: 280px;
+  background: url('../images/basa/w215-h280.png') no-repeat;
+}
+.basa-ouguan-top {
+  padding: 10px 15px 15px;
+}
+.basa-ouguan-name-01,
+.basa-ouguan-name-02 {
+  height: 32px;
+  line-height: 32px;
+}
+.basa-ouguan-name-01 {
+  padding-right: 40px;
+  background: url('../images/base/icon.png') no-repeat -612px -139px;
+}
+.basa-ouguan-name-02 {
+  padding-left: 40px;
+  background: url('../images/base/icon.png') no-repeat -668px -100px;
+}
+.basa-ouguan-tabs li {
+  width: 105px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: #d4d4d4;
+  color: #000000;
+  font-weight: bold;
+}
+.basa-ouguan-tabs li.current {
+  background: #a0a0a0;
+}
+.basa-ouguan-blocks table th {
+  line-height: 30px;
+  color: #ffc800;
+  text-align: center;
+}
+.basa-ouguan-select-link a {
+  color: #ffc800;
+}
+.basa-ouguan-blocks table td {
+  text-align: center;
+  line-height: 22px;
+  color: #ffffff;
+}
+.basa-img-block ul {
+  padding: 0 0 15px 15px;
+}
+.basa-img-block ul li {
+  margin: 15px 13px 0 0;
+}
+.basa-img-block ul li img {
+  width: 128px;
+  height: 75px;
+}
+.basa-img-block ul li .basa-fan-show {
+  width: 128px;
+}
+.basa-img-120-block ul li img {
+  width: 120px;
+}
+.basa-img-84-block ul li,
+.basa-img-120-block ul li {
+  margin: 15px 15px 0 0;
+}
+.basa-img-120-block ul li .basa-fan-show {
+  width: 120px;
+}
+.basa-img-84-block ul li img {
+  width: 84px;
+}
+.basa-luona-blocks,
+.basa-fan-topic ul,
+.basa-news ul,
+.basa-hot-tags ul,
+.basa-fan-block ul,
+.basa-topic-blocks,
+.basa-fan-topic ul,
+.basa-xing-new ul,
+.basa-weibo-block ul {
+  border-top: 0;
+}
+

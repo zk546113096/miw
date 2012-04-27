@@ -44,3 +44,17 @@ input.footer-email-btn {
   margin-top: -3px;
 }
 /* }}} */
+/* basa index {{{ */
+.basa-login-checkbox {
+  margin-top: -2px;
+}
+.basa-login-block div.rows input {
+  width: 191px;
+}
+.basa-winners-blocks li dl {
+  padding: 5px 15px;
+}
+.basa-topic-blocks li dl {
+  padding: 5px 15px;
+}
+/* }}} */

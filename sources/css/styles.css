@@ -771,6 +771,9 @@ input.footer-email-btn {
   border: #b40014 1px solid;
 }
 /* tab 切换 样式 */
+.switch-tabs li {
+  cursor: pointer;
+}
 .switch-blocks li {
   display: none;
 }
@@ -782,51 +785,17 @@ input.footer-email-btn {
   overflow: hidden;
 }
 /* width */
-.w115 {
-  width: 115px;
+.w215 {
+  width: 215px;
 }
-.w195 {
-  width: 195px;
+.w300 {
+  width: 300px;
 }
-.w264 {
-  width: 264px;
+.w425 {
+  width: 425px;
 }
-.w288 {
-  width: 288px;
-}
-.w299 {
-  width: 299px;
-}
-.w295 {
-  width: 295px;
-}
-.w310 {
-  width: 310px;
-}
-.w363 {
-  width: 363px;
-}
-.w400 {
-  width: 400px;
-}
-.w405 {
-  width: 405px;
-}
-.w480 {
-  width: 480px;
-}
-.w618 {
-  width: 618px;
-}
-.w660 {
-  width: 660px;
-  overflow: hidden;
-}
-.w680 {
-  width: 660px;
-}
-.w712 {
-  width: 712px;
+.w740 {
+  width: 740px;
 }
 /* height */
 /* position right bottom */
