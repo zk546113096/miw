@@ -22,14 +22,21 @@
 #content .basa-block h3 a.rt {
   background-position: 15px -101px;
 }
+.basa-news-top {
+  top: -3px;
+  left: -3px;
+  width: 430px;
+  height: 51px;
+  background: url('../images/basa/basa-news-top.png') no-repeat;
+}
 .basa-news ul {
-  padding: 0px 10px;
-  height: 185px;
+  padding: 48px 20px 0 20px;
+  height: 171px;
 }
 .basa-news ul li {
   top: 0px;
   left: 0px;
-  width: 403px;
+  width: 383px;
   line-height: 19px;
   padding-top: 6px;
 }
@@ -38,7 +45,7 @@
   bottom: 0px;
 }
 .basa-login-block div.rows input {
-  width: 215px;
+  width: 192px;
   padding: 0 10px;
   height: 35px;
   line-height: 35px;
@@ -116,20 +123,18 @@
 .basa-winners-blocks li dl dd {
   line-height: 28px;
 }
-.basa-baby h2 {
-  height: 33px;
-  padding: 0 15px;
-  line-height: 33px;
-  background: #c8c8c8;
+#content .basa-baby h3 {
+  background: #ffffff;
+  border-bottom: 0;
 }
 .basa-baby-block {
   height: 188px;
   padding: 10px;
   padding-top: 0px;
-  background: #ebebeb;
+  border-top: 0;
 }
 .basa-baby-block img {
-  width: 195px;
+  width: 193px;
   height: 79px;
 }
 .basa-baby-block table {
@@ -147,10 +152,14 @@
   color: #ffffff;
   background: url('../images/basa/w91-h26-btn-bg.png') no-repeat;
 }
+.basa-baby-btn-rows a.lf {
+  background: url('../images/basa/w91-h26-btn-bg-02.png') no-repeat;
+}
 .basa-baby-num {
   width: 71px;
   height: 44px;
   padding-top: 7px;
+  margin-top: 10px;
   text-align: center;
   font-size: 14px;
   background: url('../images/basa/w71-h51-bg.png') no-repeat;
@@ -189,6 +198,7 @@
   background: #e9e9e9;
 }
 .basa-topic-tabs li.current {
+  color: #8a0e0e;
   background: #ffffff;
 }
 .basa-topic-blocks {
@@ -223,8 +233,9 @@
   line-height: 24px;
 }
 .basa-survey-block {
-  height: 166px;
-  background: #f5f5f5;
+  height: 164px;
+  border-top: 0;
+  background: #f3f3f3;
 }
 .basa-survey-block a {
   width: 87px;
@@ -353,22 +364,37 @@
 .basa-img-block ul li .basa-fan-show {
   width: 128px;
 }
-.basa-img-120-block ul li img {
-  width: 120px;
+.basa-images-block ul {
+  padding-top: 0px;
+  padding-right: 0px;
 }
-.basa-img-84-block ul li,
-.basa-img-120-block ul li {
+.basa-images-block ul li {
   margin: 15px 15px 0 0;
 }
-.basa-img-120-block ul li .basa-fan-show {
-  width: 120px;
+.basa-images-block ul li img {
+  width: 189px;
+  height: 127px;
 }
-.basa-img-84-block ul li img {
-  width: 84px;
+.basa-images-block ul li .basa-fan-show {
+  width: 189px;
+}
+.basa-game-block ul {
+  padding-top: 0px;
+}
+.basa-game-block ul li {
+  padding-top: 15px;
+}
+.basa-game-block ul li img {
+  width: 80px;
+  height: 80px;
+}
+.basa-game-block ul li div.rt {
+  width: 93px;
 }
 .basa-luona-blocks,
 .basa-fan-topic ul,
 .basa-news ul,
+.basa-game-block ul,
 .basa-hot-tags ul,
 .basa-fan-block ul,
 .basa-topic-blocks,
